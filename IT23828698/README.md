@@ -11,7 +11,7 @@ This repository contains automated test cases for the Singlish to Sinhala transl
 
 This test suite includes **34 test cases** covering:
 
-### Positive Functional Tests (23 tests)
+### Positive Functional Tests (26 tests)
 - ✅ Simple, compound, and complex sentences
 - ✅ Interrogative (questions) and imperative (commands) forms
 - ✅ Positive and negative sentence forms
@@ -33,7 +33,7 @@ This test suite includes **34 test cases** covering:
 - ❌ Extremely long concatenated words
 - ❌ Whitespace-only input
 
-### UI Tests (1+ tests)
+### UI Tests (2 tests)
 - 🖥️ Real-time output update behavior
 - 🖥️ Clear input/output functionality
 
@@ -144,7 +144,7 @@ This opens an interactive HTML report showing:
 singlish-translator-tests/
 │
 ├── tests/
-│   ├── positive-tests.spec.js   # 23 positive functional test cases
+│   ├── positive-tests.spec.js   # 24 positive functional test cases
 │   ├── negative-tests.spec.js   # 10 negative functional test cases
 │   └── ui-tests.spec.js          # UI test cases
 │
@@ -228,7 +228,7 @@ Each test:
 ## 📄 Test Results Documentation
 
 Test execution results are documented in:
-- **Excel File**: `Assignment_1_keshi.xlsx`
+- **Excel File**: `IT23828698.xlsx`
 - **HTML Report**: Generated after test execution
 - **Console Output**: Real-time logs during test execution
 
@@ -244,8 +244,8 @@ Test execution results are documented in:
 
 ## 👤 Author
 
-**Your Name**  
-**Registration Number**: [Your Registration Number]  
+**Your Name**  KARUNARATHNE K M K T 
+**Registration Number**: IT23828698
 **Course**: IT3040 - ITPM  
 **Assignment**: Assignment 1 - Testing & Automation
 
@@ -253,7 +253,7 @@ Test execution results are documented in:
 
 ## 📅 Submission Details
 
-**Submission Date**: 1st February 2026  
+**Submission Date**: 31st February 2026  
 **Repository**: This Git repository (must be publicly accessible)
 
 ---
@@ -272,21 +272,6 @@ Test execution results are documented in:
 
 ---
 
-## 🎯 Next Steps After Setup
-
-1. ✅ Install all dependencies
-2. ✅ Run tests once to verify setup
-3. ✅ Update selectors if needed
-4. ✅ Review and verify expected outputs
-5. ✅ Execute full test suite
-6. ✅ Document results in Excel file
-7. ✅ Generate HTML report
-8. ✅ Commit and push to Git
-9. ✅ Verify repository is publicly accessible
-10. ✅ Submit before deadline
-
----
-
 ## 📧 Support
 
 If you encounter any issues, please check:
@@ -299,6 +284,8 @@ If you encounter any issues, please check:
 ---
 
 **Good luck with your testing! 🚀**
+
+
 
 
 
