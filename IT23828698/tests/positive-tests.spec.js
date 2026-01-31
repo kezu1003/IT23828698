@@ -358,6 +358,28 @@ test.describe('Positive Functional Tests - Singlish to Sinhala', () => {
     expect(hasSinhalaChars(output)).toBe(true);
   });
 
+  // Test Case: Pos_Fun_0025 - Sinhala Unicode Input Validation
+  // Length Type: M (31–299 characters)
+  test('Pos_Fun_0025 - Sinhala Unicode Input Validation', async ({ page }) => {
+    const input = 'graamiiya pradheeshavala aDhYaapanaya ihaLa mattamakata gena aa yuthuyi.';
+    const expected = 'ග්‍රාමීය ප්‍රදේශවල අධ්‍යාපනය ඉහළ මට්ටමකට ගෙන ආ යුතුයි.';
+    const output = await convertAndRead(page, input);
+    
+    expect(output.length).toBeGreaterThan(0);
+    expect(hasSinhalaChars(output)).toBe(true);
+  });
+
+  // Test Case: Pos_Fun_0026 - Sinhala Unicode Input Validation
+  // Length Type: M (31–299 characters)
+  test('Pos_Fun_0026 - Sinhala Unicode Input Validation', async ({ page }) => {
+    const input = 'dharuvan osavaagena paemiNena poth baeegayee bara adu karamu.';
+    const expected = 'දරුවන් ඔසවාගෙන පැමිණෙන පොත් බෑගයේ බර අඩු කරමු';
+    const output = await convertAndRead(page, input);
+    
+    expect(output.length).toBeGreaterThan(0);
+    expect(hasSinhalaChars(output)).toBe(true);
+  });
+
 });
 
 
